@@ -1,0 +1,5 @@
+﻿This project implements the S and O principles of SOLID.
+The single responsibility principle is exemplified in the construction of different classes for different purposes.
+As such, there are different classes for drawing different shapes and finding their area, as well as another one for finding the total area of the objects. The Open/Closed principle is exemplified in the Calculate Area class.
+All the objects created have the method "Area" that is introduced in the abstract class "ShapeArea". Even though they have different methods of calculation, the abstract class allows us to calculate the total area in a different class and method without having to use if/else statements. Therefore, the "CalculateArea" class is closed for modification, even if there will be introduced other shapes for which the total area should be calculated.
+However, it is open for extension, as any other shape can inherit the Area() method from the abstract class "ShapeArea"
