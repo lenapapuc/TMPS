@@ -4,7 +4,7 @@ namespace CreationalDesignPatterns
 {
     public class FreshwaterNecklace : Necklace
     {
-        public String GetDescription()
+        public static String GetDescription()
         {
             return "A lustrous pearl drop takes center stage in this sterling silver wrap necklace.";
         }

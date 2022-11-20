@@ -2,20 +2,18 @@
 
 namespace CreationalDesignPatterns
 {
-    public class HardwearNecklace : Necklace
+    public class HardwearRing : Ring
     {
-        public String GetDescription()
+        public static String GetDescription()
         {
-            return "Featuring a sleek sterling silver ball, this simple pendant is effortlessly modern and timeless.";
-        } 
-        public override void WriteResponse()
+            return "Two bold bands of sterling silver exude modern sophistication in this double ring design.";
+        }
+         public override void WriteResponse()
         {
             Console.WriteLine(name);
             Console.WriteLine(GetDescription());
             Console.WriteLine("Product: " + type + ";  Price: " + price + " $");
             Console.WriteLine("********************************************************");
         }
-
-      
     }
 }

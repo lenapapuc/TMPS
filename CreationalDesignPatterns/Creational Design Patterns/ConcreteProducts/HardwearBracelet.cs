@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Dynamic;
-using System.Runtime.InteropServices;
-using CreationalDesignPatterns.Builders;
 
 namespace CreationalDesignPatterns
 {
-    public class FreshWaterBracelet : Bracelet
+    public class HardwearBracelet : Bracelet
     {
-       
+        public int engravedPrice = 600;
         public static String GetDescription()
         {
-            return "Sleek sterling silver links are offset with lustrous pearls in this lock bracelet design.";
+            return "This sterling silver ball bracelet shines with every movement." +
+                   "+ An everyday styling essential, this ball bracelet makes a statement when mixed with a stack of gold Tiffany bracelets.";
         }
-
-        //public String description = GetDescription();
         public override void WriteResponse()
        {
            Console.WriteLine(name);
