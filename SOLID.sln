@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometry", "Geometry\Geometry.csproj", "{3C75005F-8287-4719-A82A-FDDAE4189843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalDesignPatterns", "CreationalDesignPatterns\CreationalDesignPatterns.csproj", "{4AE455C9-987B-47BB-BF1C-3A1CF4BF4E8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C75005F-8287-4719-A82A-FDDAE4189843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C75005F-8287-4719-A82A-FDDAE4189843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C75005F-8287-4719-A82A-FDDAE4189843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C75005F-8287-4719-A82A-FDDAE4189843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE455C9-987B-47BB-BF1C-3A1CF4BF4E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE455C9-987B-47BB-BF1C-3A1CF4BF4E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE455C9-987B-47BB-BF1C-3A1CF4BF4E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE455C9-987B-47BB-BF1C-3A1CF4BF4E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

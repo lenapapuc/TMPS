@@ -1,4 +1,5 @@
 ﻿using System;
+using CreationalDesignPatterns.Behavioral_Design_Patterns;
 
 namespace CreationalDesignPatterns
 {
@@ -18,6 +19,12 @@ namespace CreationalDesignPatterns
            Console.WriteLine(engraving);
            Console.WriteLine("********************************************************");
        }
+
+        public override void Accept(IVisitor visitor)
+        {
+            
+        }
+
         
     }
 }

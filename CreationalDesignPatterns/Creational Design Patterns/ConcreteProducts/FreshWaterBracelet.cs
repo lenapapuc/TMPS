@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Data;
 using System.Dynamic;
 using System.Runtime.InteropServices;
+using CreationalDesignPatterns.Behavioral_Design_Patterns;
 using CreationalDesignPatterns.Builders;
 using CreationalDesignPatterns.Structural_Design_Patterns.Composite;
 
@@ -25,6 +27,11 @@ namespace CreationalDesignPatterns
            Console.WriteLine("********************************************************");
        }
 
-        
+        public override void Accept(IVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
+
+       
     }
 }

@@ -3,6 +3,8 @@
 In this project I implemented 3 structural design patterns
 
 - Facade - provides a unified interface to a set of interfaces in a subsystem. This pattern defines a higher-level interface that makes the subsystem easier to use.
+- Proxy - provides a surrogate or placeholder for another object to control access to it.
+- Composite - composes objects into tree structures to represent part-whole hierarchies. This pattern lets clients treat individual objects and compositions of objects uniformly.
 
 ## Facade
 
@@ -165,8 +167,11 @@ The result is the following:
 >  --- Fresh Water Pearl Bracelet
 >
 >  Sleek sterling silver links are offset with lustrous pearls in this lock bracelet design.
+> 
 >  --- Ball Pendant 
+>
 >  Featuring a sleek sterling silver ball, this simple pendant is effortlessly modern and timeless.
 >
 > --- Fresh Water Pearl Ring
+> 
 > Two bold bands of sterling silver exude modern sophistication in this double ring design.

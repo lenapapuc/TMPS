@@ -1,4 +1,5 @@
 ﻿using System;
+using CreationalDesignPatterns.Behavioral_Design_Patterns;
 
 namespace CreationalDesignPatterns
 {
@@ -16,6 +17,9 @@ namespace CreationalDesignPatterns
             Console.WriteLine("********************************************************");
         }
 
-      
+        public override void Accept(IVisitor visitor)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

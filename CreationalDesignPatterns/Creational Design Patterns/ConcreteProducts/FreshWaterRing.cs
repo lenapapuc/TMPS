@@ -1,4 +1,5 @@
 ﻿using System;
+using CreationalDesignPatterns.Behavioral_Design_Patterns;
 
 namespace CreationalDesignPatterns
 {
@@ -16,6 +17,11 @@ namespace CreationalDesignPatterns
             Console.WriteLine("Product: " + type + ";  Price: " + price + " $");
             Console.WriteLine("********************************************************");
         }
-     
+
+        public override void Accept(IVisitor visitor)
+        {
+            visitor.Visit(this);
+        }
+
     }
 }

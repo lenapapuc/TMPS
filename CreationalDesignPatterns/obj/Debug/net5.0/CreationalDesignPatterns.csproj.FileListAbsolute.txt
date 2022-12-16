@@ -3,7 +3,6 @@ C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\Crea
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\CreationalDesignPatterns.runtimeconfig.json
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\CreationalDesignPatterns.runtimeconfig.dev.json
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\CreationalDesignPatterns.dll
-C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\ref\CreationalDesignPatterns.dll
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\bin\Debug\net5.0\CreationalDesignPatterns.pdb
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\CreationalDesignPatterns.csproj.AssemblyReference.cache
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\CreationalDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
@@ -14,3 +13,4 @@ C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\Crea
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\ref\CreationalDesignPatterns.dll
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\CreationalDesignPatterns.pdb
 C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\CreationalDesignPatterns.genruntimeconfig.cache
+C:\Users\User\RiderProjects\SOLID\CreationalDesignPatterns\obj\Debug\net5.0\refint\CreationalDesignPatterns.dll

@@ -1,8 +1,10 @@
 ﻿using System;
+using CreationalDesignPatterns.Behavioral_Design_Patterns;
+using CreationalDesignPatterns.Builders;
 
 namespace CreationalDesignPatterns
 {
-    public abstract class Jewelry
+    public abstract class Jewelry : IElement
     {
         public String name { get; set; }
         public float price { get; set; }
@@ -11,5 +13,8 @@ namespace CreationalDesignPatterns
         
         public String engraving { get; set; }
         public abstract void WriteResponse();
+
+
+        public abstract void Accept(IVisitor visitor);
     }
 }
